@@ -1,0 +1,88 @@
+/* Estilos generales del contenedor */
+.acerca-container {
+  background-color: #1b1b1b; 
+  color: #ededed;
+  padding: 40px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Título principal */
+.acerca-title {
+  font-size: 3rem;
+  color: #ff4500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Descripción general */
+.acerca-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: #c0c0c0; 
+  
+}
+
+/* Secciones específicas */
+.acerca-section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #252525;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Títulos de sección */
+.acerca-section h2 {
+  font-size: 2rem;
+  color: #ff4500;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Texto de las secciones */
+.acerca-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  text-align: justify;
+
+}
+
+.acerca-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 15px 0;
+  
+}
+
+.acerca-section li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.acerca-section li strong {
+  color: white; /* Rojo destacado para palabras clave */
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: none;
+  margin: 5px auto 0;
+}
+
+h2 {
+  text-align: center;
+}

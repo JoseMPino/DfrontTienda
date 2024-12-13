@@ -1,0 +1,116 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  margin-bottom: 0px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.form-input:focus {
+  border-color: #ff4500;
+  outline: none;
+  box-shadow: 0 0 5px rgba(232, 230, 230, 0.5);
+}
+
+.form-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #982b03;
+}
+
+.form-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-error {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btnLink {
+  background: none;
+  color: #d3d3d3;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline #ffffff;
+}
+.btnLink:hover {
+  color: #ad360b;
+  text-decoration: none;
+}
+.btnLink:focus {
+  outline: none;
+  color: #ff4500;
+}
+.btnLinkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1px auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  gap: 8px;
+}
+
+.cerrar-sesion-btn {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cerrar-sesion-btn:hover {
+  background-color: #ad360b;
+}

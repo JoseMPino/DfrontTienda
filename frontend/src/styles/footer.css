@@ -1,0 +1,38 @@
+.footer {
+  background-color: #252525;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info {
+  margin-bottom: 10px;
+  display: flex; /* Hace que los divs se muestren en línea */
+  justify-content: center;
+  border: 50px;
+  text-align: justify;
+  gap: 50px;
+}
+
+.footer-social-links {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.footer-link {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-additional-info {
+  font-size: 12px;
+  margin-top: 10px;
+}
